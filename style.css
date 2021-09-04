@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+
+}
+body {
+    background-color: rgb(250, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    /* border: 1px solid; */
+    margin-top: 20px;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color:#fff;
+    color: rgb(143, 9, 143);
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.navigation a:visited, .navigation a:link {
+    text-decoration: none;
+    color:black;
+}
+
+.navigation {
+    /* margin-right: 40px; */
+    /* border: 1px solid black; */
+    margin-right: 4em;
+    padding: 5px;
+
+}
+
+.navigation a {
+    padding: 10px;
+    font-weight: bold;
+}
+
+#home {
+    border-top: 1px solid violet;
+    border-bottom: 1px solid violet;
+}
+
+.logo {
+    /* border: 1px solid black; */
+    margin-left: 3em;
+    /* padding: 10px; */
+    letter-spacing: 2px;
+    font-weight: bold;
+
+}
+
+main {
+    /* border: 1px solid black; */
+    max-height: 40%;
+    margin-top: 40px;
+    display: flex;
+}
+
+article {
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    padding: 30px;
+}
+
+
+.footer {
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    padding: 30px;
+    
+}
+
+#hireMe {
+    border: none;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    padding: 8px 18px;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(143, 9, 143);
+    color: #fff;
+}
+#portfolio{
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 8px 18px;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: rgb(143, 9, 143);
+}
+
+.image {
+    border: 1px solid rgb(250, 233, 233);
+    margin-left: 15px;
+    margin-top: 40px;
+    padding: 210px;
+    border-radius: 50%;
+    background-image: url("image2.png");
+}
+#hello {
+    /* border: 1px solid black; */
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#wendy {
+    font-weight: 800;
+}
+
+#intro {
+    /* border: 1px solid black; */
+    margin-bottom: 6px;
+    word-spacing: 8px;
+    font-size: 30px;
+}
+
+#content {
+    /* border: 1px solid; */
+    text-align: justify;
+    line-height: 1.7;
+}
